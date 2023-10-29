@@ -1,0 +1,597 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697416170999214, "dur": 355925067, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416170999688, "dur": 6152, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416171005846, "dur": 108381, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416171114231, "dur": 1187501, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416172301736, "dur": 354610781, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416526912520, "dur": 11760, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416526925353, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697416171906359, "dur": 359617, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416171908908, "dur": 103350, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416172219657, "dur": 9385, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416172229050, "dur": 36891, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416172230695, "dur": 33416, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416172276445, "dur": 3753, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697416172273757, "dur": 6517, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416526925658, "dur": 578, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697416172416733, "dur":2742, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416172419487, "dur":633, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697416172420195, "dur":460, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697416172420656, "dur":543, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697416172421250, "dur":1246, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416172422496, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889430, "dur":297, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889727, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889755, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889759, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889774, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889777, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889785, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889788, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889798, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889801, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889809, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889811, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889819, "dur":62, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889881, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889889, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889891, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889899, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889915, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526889961, "dur":2873, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697416172421965, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416172422517, "dur":10996, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416172433543, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697416172433561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416172438669, "dur":2334, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697416172441013, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697416172441135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416172448499, "dur":901723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697416173350228, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697416173350505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416173350517, "dur":5872508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697416179223128, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1697416179223328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416179223336, "dur":994573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1697416180217994, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1697416180218198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416181866525, "dur":75625260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1697416257491900, "dur":126916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416257618825, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416257618838, "dur":5078660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416262697605, "dur":80119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416262777734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416262777785, "dur":10445236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416273223145, "dur":1333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416273224487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416273224496, "dur":9954081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283178682, "dur":36743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283215435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416283215447, "dur":86532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283302131, "dur":33016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283335157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416283335169, "dur":119408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283454704, "dur":34385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416283489098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416283489110, "dur":875546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416284364732, "dur":40591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416284405333, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416284405345, "dur":4661070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416289066507, "dur":35565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416289102079, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416289102091, "dur":1416786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416290518968, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416290519772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416290519783, "dur":2223932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualEffectGraph.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416292743809, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416292744297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416292744308, "dur":909796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416293654189, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416293655234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416293655243, "dur":1019110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416294674611, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416294675004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416294675011, "dur":15897775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416310572895, "dur":185515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416310758418, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416310758436, "dur":4726043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416315484579, "dur":16461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416315501047, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416315501057, "dur":28779679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697416344280857, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1697416344280931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416344280943, "dur":79457328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1697416423738435, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697416423738481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416423738488, "dur":22310717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697416446049307, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1697416446049377, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416446049393, "dur":61931423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1697416507980907, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697416507981153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697416507981160, "dur":16498303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697416524479571, "dur":2409815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416172422117, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416172422548, "dur":10977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416172433544, "dur":22246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1697416172455800, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416172455868, "dur":3276912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1697416175732902, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1697416175733123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416179390627, "dur":833524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1697416180224256, "dur":32947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416180257210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416183485544, "dur":54190638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416237676436, "dur":5766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416237682218, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416237682235, "dur":22079355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416259761681, "dur":37212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416259798900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416259798910, "dur":13418809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416273217864, "dur":4053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416273221926, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416273221939, "dur":10008832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283230880, "dur":32666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283263557, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416283263571, "dur":85073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283348757, "dur":33373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283382139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416283382152, "dur":125172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283507423, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416283508202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416283508213, "dur":876395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416284384703, "dur":3927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416284388667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416284388678, "dur":4724402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416289113202, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416289113950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416289113960, "dur":2703026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416291817094, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416291817826, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416291817836, "dur":1226224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416293044185, "dur":5720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416293049911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416293049923, "dur":603929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416293653989, "dur":2072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416293656072, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416293656087, "dur":1021025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416294677214, "dur":121504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416294798728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416294798741, "dur":15774127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416310572917, "dur":6442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416310579372, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416310579388, "dur":4905100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416315484584, "dur":277106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416315761701, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416315761720, "dur":17256594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416333018427, "dur":4370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416333022814, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416333265183, "dur":33973115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697416367238399, "dur":14062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1697416367252475, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416367252499, "dur":71889067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1697416439141685, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1697416439141752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416439141761, "dur":8120935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1697416447262789, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697416447262837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697416447262844, "dur":71043155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697416518306080, "dur":8583312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416172422039, "dur":485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416172422524, "dur":11039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416172433565, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1697416172433864, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416172453180, "dur":904541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1697416173357814, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1697416173358011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416173358023, "dur":5865018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1697416179223133, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1697416179223437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416179223448, "dur":1000671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1697416180224229, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416180225227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416189542155, "dur":48133927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416237676194, "dur":6154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416237682355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416237682367, "dur":22079035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416259761571, "dur":42310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416259803888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416259803898, "dur":13413812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416273217826, "dur":33365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416273251200, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416273251256, "dur":9927344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283178706, "dur":6001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283184714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416283184724, "dur":104223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283289080, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283289788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416283289798, "dur":138489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283428397, "dur":34629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283463035, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416283463047, "dur":50031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283513192, "dur":75368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416283588569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416283588583, "dur":1814388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416285403065, "dur":35048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416285438125, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416285438139, "dur":3656146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416289094376, "dur":38258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416289132642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416289132653, "dur":2686603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416291819344, "dur":1020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416291820374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416291820388, "dur":1228792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416293049324, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416293049864, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416293049879, "dur":604089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416293654089, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416293655251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416293655260, "dur":1031090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416294686453, "dur":200352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416294886816, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416294886833, "dur":15685843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416310572795, "dur":146083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416310718888, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416310718907, "dur":4769007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416315488026, "dur":3038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416315491068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416315491075, "dur":17396884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416332888056, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416332888711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416332888719, "dur":11391975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697416344280831, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1697416344280907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416344280916, "dur":22491342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1697416366772323, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1697416366772374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416366772379, "dur":79166518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1697416445939000, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1697416445939053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697416445939106, "dur":62042003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1697416507981168, "dur":18908211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416172422098, "dur":440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416172422538, "dur":10999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416172433543, "dur":18487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1697416172452045, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416172453179, "dur":904531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1697416173357794, "dur":12021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1697416173369824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416173369837, "dur":6020863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1697416179390831, "dur":2821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416179393659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416180211173, "dur":32326129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416212537437, "dur":6729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416212544174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416212544227, "dur":32354082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416244898432, "dur":49233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416244947674, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416244947686, "dur":14813805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416259761602, "dur":36911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416259798522, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416259798534, "dur":13419219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416273217853, "dur":1265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416273219132, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416273219154, "dur":8032288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416281251562, "dur":6326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416281257897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416281257909, "dur":2000094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283258113, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283258874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416283258885, "dur":77885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283336867, "dur":1324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283338197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416283338207, "dur":169041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283507384, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416283508826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416283508834, "dur":875815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416284384749, "dur":37056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416284421813, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416284421826, "dur":4648190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416289070118, "dur":161106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416289231233, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416289231286, "dur":3409690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416292641089, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416292642109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416292642119, "dur":998648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416293640860, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416293641551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416293641565, "dur":1025780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416294667425, "dur":7135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416294674564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416294674574, "dur":15898287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416310572940, "dur":12838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416310585789, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416310585807, "dur":4902147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416315488047, "dur":2970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416315491023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416315491034, "dur":17396932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416332888066, "dur":29450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416332917524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416333115081, "dur":33656892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697416366772114, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1697416366772183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416366772194, "dur":62280891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1697416429053201, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697416429053255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416429053265, "dur":16885618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697416445939001, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697416445939054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697416445939132, "dur":62041833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697416507981062, "dur":18908321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416172422190, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416172422559, "dur":10973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416172433544, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697416172433884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416172456445, "dur":3276354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697416175732963, "dur":12774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1697416175745750, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416175746010, "dur":4461735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1697416180207808, "dur":6137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1697416180213952, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416180213960, "dur":51097780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1697416231311853, "dur":57076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416231368942, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416231368956, "dur":25756835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416257125911, "dur":39996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416257165917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416257165967, "dur":8165307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416265331393, "dur":37687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416265369091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416265369103, "dur":8601237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416273970488, "dur":31668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416274002165, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416274002178, "dur":9198371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283200668, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283201555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416283201566, "dur":87436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283289114, "dur":33770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283322894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416283322907, "dur":105522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283428502, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283429362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416283429372, "dur":83673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283513185, "dur":32557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416283545750, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416283545763, "dur":838876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416284384752, "dur":36744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416284421505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416284421516, "dur":4644881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416289066533, "dur":1349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416289067891, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416289067903, "dur":82548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416289150544, "dur":2093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416289152645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416289152656, "dur":3590987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416292743764, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416292744296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416292744308, "dur":899768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416293644153, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416293644667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416293644676, "dur":1029814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416294674568, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416294675296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416294675302, "dur":15897527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416310572937, "dur":195018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416310767963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416310767973, "dur":4723443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416315491509, "dur":2081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416315493595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416315493602, "dur":17524814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697416333018520, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1697416333018600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416333018627, "dur":33987410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1697416367006132, "dur":5653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1697416367011794, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416367011846, "dur":56726435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1697416423738374, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697416423738436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416423738445, "dur":23524154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697416447262710, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1697416447262760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416447262767, "dur":33130404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1697416480393280, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1697416480393428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697416480393435, "dur":44195561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1697416524589081, "dur":2300314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416172422304, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416172422575, "dur":11003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416172433578, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1697416172433842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416172481554, "dur":843144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1697416173324804, "dur":11822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697416173336634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416173336675, "dur":2396341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697416175733115, "dur":12806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1697416175745927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416175745973, "dur":4461747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1697416180207804, "dur":85762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416180293607, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416180293616, "dur":93854644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416274148373, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416274149167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416274149176, "dur":9081330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283230589, "dur":45709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283276307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416283276321, "dur":72379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283348792, "dur":1233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283350032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416283350043, "dur":157257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283507396, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416283508198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416283508209, "dur":856454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416284364734, "dur":49893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416284414634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416284414645, "dur":4676322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416289091081, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416289091801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416289091813, "dur":58626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416289150545, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416289151400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416289151410, "dur":2667891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416291819399, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416291819828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416291819840, "dur":1229353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416293049319, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416293049841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416293049852, "dur":604036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416293654008, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416293654701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416293654711, "dur":1019665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416294674486, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416294675558, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416294675571, "dur":15897112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416310572793, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416310573213, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416310573229, "dur":4911241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416315484569, "dur":194504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416315679120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416315679133, "dur":17342201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697416333021403, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697416333021481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416333021490, "dur":33750802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697416366772527, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697416366772627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416366772635, "dur":72369025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697416439141781, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697416439141842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416439141850, "dur":24411893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697416463553940, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697416463554018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697416463554030, "dur":54751761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697416518305879, "dur":8583546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416172422338, "dur":252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416172422590, "dur":10928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416172433549, "dur":59541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1697416172493099, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416173330745, "dur":2402192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1697416175733065, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1697416175733272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416175733565, "dur":4473876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1697416180207552, "dur":31036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416180238595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416180238643, "dur":77497907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416257736664, "dur":36861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416257773533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416257773543, "dur":13423238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416271196895, "dur":90762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416271287667, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416271287679, "dur":7606738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416278894541, "dur":927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416278895478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416278895494, "dur":4362440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283258045, "dur":33158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283291241, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416283291255, "dur":74301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283365644, "dur":48919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283414571, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416283414582, "dur":92692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283507398, "dur":33353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416283540760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416283540773, "dur":843825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416284384701, "dur":36821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416284421529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416284421541, "dur":4644792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416289066453, "dur":51179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416289117640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416289117650, "dur":2701629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416291819396, "dur":1652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416291821058, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416291821072, "dur":1767695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416293588863, "dur":6604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416293595475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416293595486, "dur":62028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416293657613, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416293658456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416293658463, "dur":1027895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416294686457, "dur":1379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416294687846, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416294687859, "dur":15891606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416310579596, "dur":3758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416310583363, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416310583376, "dur":4907961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416315491446, "dur":1880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416315493334, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416315493351, "dur":17621745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697416333115216, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697416333115287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416333115347, "dur":17645993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697416350761465, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1697416350761527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416350761537, "dur":95177370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1697416445939013, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1697416445939148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697416445939156, "dur":78428691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1697416524367955, "dur":2521434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416172422390, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416172422603, "dur":10918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416172433542, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697416172433897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416173357500, "dur":5865532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697416179223126, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697416179223443, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416179223491, "dur":994403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697416180217992, "dur":90306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien.exe" }}
+,{ "pid":12345, "tid":8, "ts":1697416180308305, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416180308313, "dur":57367560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien.exe" }}
+,{ "pid":12345, "tid":8, "ts":1697416237676169, "dur":73799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416237749979, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416237749993, "dur":22011510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416259761591, "dur":36937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416259798537, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416259798550, "dur":13419182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416273217844, "dur":1281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416273219139, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416273219159, "dur":8032306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416281251570, "dur":6126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416281257708, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416281257722, "dur":2000222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283258042, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283258804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416283258817, "dur":77927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283336846, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283337704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416283337714, "dur":153696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283491491, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416283492261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416283492273, "dur":872417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416284364772, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416284365455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416284365464, "dur":4599193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416288964782, "dur":6578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416288971369, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416288971381, "dur":141740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416289113256, "dur":1434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416289114697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416289114704, "dur":3629042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416292743856, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416292744474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416292744481, "dur":976408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416293720999, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416293721663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416293721673, "dur":955448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416294677211, "dur":318994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416294996213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416294996255, "dur":16371228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416311367568, "dur":4082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416311371660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416311371673, "dur":4122527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416315494450, "dur":1661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416315496125, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416315496151, "dur":17618963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697416333115212, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1697416333115267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416333115274, "dur":16024947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1697416349140334, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/New folder/Karting_Poitevien_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697416349140400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697416349140409, "dur":177748844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/New folder/Karting_Poitevien_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697416526889343, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1697416526889347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697416526896192, "dur":3684, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697416526926349, "dur": 1073, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697416526925327, "dur": 2125, "ph": "X", "name": "Write chrome-trace events", "args": {} },
